@@ -1,0 +1,75 @@
+div{
+    margin:30px auto;
+}
+button{
+    margin:0 10px;
+}
+.ech-big,.ech-small{
+    transition: all .4s;
+}
+.ech-big:hover{
+    transform:scale(1.5);
+}
+.ech-small:hover{
+    transform:scale(0.8);
+}
+
+.ech-t,.ech-b,.ech-l,.ech-r{
+   transition:all .4s;
+}
+.ech-t:hover{
+    transform:translate3d(0,-10px,0);
+}
+.ech-b:hover{
+    transform:translate3d(0,10px,0);
+}
+.ech-l:hover{
+    transform:translate3d(-10px,0,0);
+}
+.ech-r:hover{
+    transform:translate3d(10px,0,0);
+}
+
+.ech-shadow,.ech-shadow-in,.ech-shadow-write,.ech-shadow-big{
+    transition:all .4s;
+}
+.ech-shadow:hover{
+    box-shadow:0 0 10px;
+}
+.ech-shadow-in:hover{
+    box-shadow:inset 0 0 10px;
+}
+.ech-shadow-write:hover{
+    box-shadow:inset 0 0 20px;
+}
+.ech-shadow-big:hover{
+    box-shadow:0 10px 10px -10px rgba(0 0 0 0.5);
+    transform:scale(1.2);
+}
+
+.ech-fade-in,.ech-fade-out{
+    transition:all .4s;
+}
+.ech-fade-in{
+    opacity: 0.5;
+}
+.ech-fade-in:hover{
+    opacity: 1;
+}
+.ech-fade-out:hover{
+    opacity: 0.5;
+}
+
+.ech-radius,.ech-rectangle{
+    transition:all .4s;
+}
+.ech-radius{
+    border-radius: 10px;
+}
+.ech-radius:hover{
+    border-radius: 0;
+}
+.ech-rectangle:hover{
+    border-radius: 10px;
+}
+
